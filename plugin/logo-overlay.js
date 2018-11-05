@@ -5,7 +5,7 @@ videojs.registerPlugin('logoOverlay', function(options) {
     // +++ Default options for configuration not passed in +++
     defaultOptions = {
       'align': 'bottom-right',
-      'imageURL': '//solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
+      'imageURL': 'https://solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
       'clickThruURL': '',
       'start': 'loadstart',
       'end': 'ended'

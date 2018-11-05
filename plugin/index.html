@@ -4,24 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Untitled Document</title>
-  <link href="//players.brightcove.net/videojs-overlay/2/videojs-overlay.css" rel="stylesheet">
+  <link href="https://players.brightcove.net/videojs-overlay/2/videojs-overlay.css" rel="stylesheet">
   <link href="logo-overlay.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <video  id="myPlayerID"
+  <video-js id="myPlayerID"
     data-video-id="5622718636001"
     data-account="1507807800001"
     data-player="default"
     data-embed="default"
     data-application-id
     class="video-js"
-    controls></video>
+    controls></video-js>
 
-  <script src="//players.brightcove.net/1507807800001/default_default/index.min.js"></script>
+  <script src="https://players.brightcove.net/1507807800001/default_default/index.min.js"></script>
 
-  <script src="//players.brightcove.net/videojs-overlay/2/videojs-overlay.min.js"></script>
+  <script src="https://players.brightcove.net/videojs-overlay/2/videojs-overlay.min.js"></script>
 
   <script src="logo-overlay.js"></script>
 
@@ -31,8 +31,8 @@
       myPlayer.logoOverlay(
         {
           'align': 'bottom-left',
-          'imageURL' : '//solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
-          'clickThruURL': '//support.brightcove.com/',
+          'imageURL' : 'https://solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
+          'clickThruURL': 'https://support.brightcove.com/',
           'start': 'loadstart',
           'end': 5
         }

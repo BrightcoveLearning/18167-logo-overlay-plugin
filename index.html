@@ -69,19 +69,19 @@
 
 <body>
 
-  <video  id="myPlayerID"
+  <video-js id="myPlayerID"
     data-video-id="5622718636001"
     data-account="1507807800001"
     data-player="default"
     data-embed="default"
     data-application-id
     class="video-js"
-    controls></video>
+    controls></video-js>
 
     <p>this is the page</p>
 
-    <script src="//players.brightcove.net/1507807800001/default_default/index.min.js"></script>
-    <script src="//players.brightcove.net/videojs-overlay/2/videojs-overlay.min.js"></script>
+    <script src="https://players.brightcove.net/1507807800001/default_default/index.min.js"></script>
+    <script src="https://players.brightcove.net/videojs-overlay/2/videojs-overlay.min.js"></script>
 
   <script type="text/javascript">
     videojs('myPlayerID').ready(function() {
@@ -89,8 +89,8 @@
       // +++ Define passed in options (this makes more sense when plugin used) +++
         inputOptions = {
           'align': 'bottom-left',
-          'imageURL' : '//solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
-          'clickThruURL': '//support.brightcove.com/',
+          'imageURL' : 'https://solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
+          'clickThruURL': 'https://support.brightcove.com/',
           'start': 'loadstart',
           'end': 5
         },
@@ -98,7 +98,7 @@
           overlayContent,
           defaultOptions = {
             'align': 'bottom-right',
-            'imageURL': '//solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
+            'imageURL': 'https://solutions.brightcove.com/bcls/brightcove-player/logo-overlay/bc-logo.png',
             'clickThruURL': '',
             'start': 'loadstart',
             'end': 'ended'
